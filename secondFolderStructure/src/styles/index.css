@@ -1,0 +1,63 @@
+.margin-unique {
+	/* margin: 100px; */
+	/* margin-left: 50px;
+    margin-top: 100px;
+    margin-right: 70px; */
+	/* ctrl + / => comment kia hai  */
+
+	/* ham chahty hain k top, right, bottom, left se different margins lagen, lakin ek hi command se ho  */
+	/* TRBL
+
+    */
+
+	/* margin: trbl */
+	/* margin: top right bottom left */
+	margin: 50px 90px 30px 72px;
+}
+
+#margin-unique {
+	background-color: red;
+	/* padding: 20px; */
+	padding: 10px 20px 30px 40px;
+}
+
+#first {
+	width: 200px;
+	margin: 10px;
+	padding: 10px;
+}
+
+#second {
+	width: 200px;
+	margin: 10px;
+	padding: 10px;
+}
+
+#third {
+	width: 200px;
+	margin: 10px;
+	padding: 10px;
+}
+
+.bgBlue {
+	background-color: blue;
+}
+.bgYellow {
+	background-color: yellow;
+}
+.bgRed {
+	background-color: red;
+}
+
+.mediaDisplay {
+	display: flex;
+}
+
+
+
+@media screen and (min-width: 481px) and (max-width: 576px) {
+    .mediaDisplay {
+        display: block;
+    }
+}
+

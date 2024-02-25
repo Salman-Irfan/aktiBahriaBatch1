@@ -1,0 +1,12 @@
+.btn-blue{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 10%;
+}
+
+/* hover */
+.btn-blue:hover{
+    cursor: pointer;
+    background-color: rgb(48, 48, 233);
+}
