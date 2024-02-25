@@ -1,0 +1,56 @@
+.container {
+	margin-left: 10%;
+	height: 50vh;
+	width: 50vw;
+	background: linear-gradient(to bottom right, #4b6cb7, #dfdfe0);
+}
+
+.box {
+	width: 420px;
+	height: 360px;
+	background: linear-gradient(to bottom right, #ff7e5f, #feb47b);
+	color: white;
+}
+
+.box:hover {
+	background: linear-gradient(to bottom right, #4b6cb7, #182848);
+
+	animation: enlarge 1s alternate-reverse infinite,
+                pulse 1s infinite; 
+}
+
+@keyframes enlarge {
+	from {
+		width: 500px;
+	}
+	to {
+		width: 800px;
+	}
+}
+
+@keyframes pulse {
+	0% {
+		/* transform: scale(1); */
+        transform: scaleX(2);
+        background-color: red;
+	}
+	/* 25% {
+		transform: scaleY(1.7);
+		background: linear-gradient(to bottom right, #8bc34a, #cddc39);
+	}
+	50% {
+		transform: scaleY(1.1);
+	}
+	75% {
+		transform: scaleX(0.5);
+		background: linear-gradient(to bottom right, #ffeb3b, #ffc107);
+	} */
+    50%{
+        transform: rotatex(20deg);
+        background: linear-gradient(to bottom right, #000000, #ffc107);
+    }
+	100% {
+		transform: scaleX(1);
+        background-color: yellow;
+	}
+}
