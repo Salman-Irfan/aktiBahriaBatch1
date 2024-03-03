@@ -1,1 +1,0 @@
-console.log(`day 2 of js`)
